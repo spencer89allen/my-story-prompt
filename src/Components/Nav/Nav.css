@@ -1,0 +1,10 @@
+.logoImage {
+    height: 5vh;
+    width: 10vw;
+    padding: 20px;
+}
+.navbar {
+    background-color: #CACFD2;
+    width: 100vw;
+    height: 15vh;
+}
