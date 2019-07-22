@@ -1,10 +1,43 @@
-.logoImage {
-    height: 5vh;
-    width: 10vw;
-    padding: 20px;
-}
 .navbar {
-    background-color: #CACFD2;
-    width: 100vw;
-    height: 15vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: stretch;
 }
+.navebarImage {
+    padding: 15px;
+    height: 20vh;
+    float: left;
+    
+}
+.menuBar {
+    background-color: #E67E22;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menuItem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+    padding: 25px;
+}
+.hamburgerMenu {
+    height: 10vh;
+    float: right;
+    width: 5vw;
+}
+@media only screen and (max-width: 425px) {
+    .menuBar {
+        background-color: green;
+
+    }
+  }
