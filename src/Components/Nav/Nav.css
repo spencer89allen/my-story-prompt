@@ -12,6 +12,11 @@
     float: left;
     
 }
+.hamburgerButton {
+    position: fixed;
+    top: 0;
+    margin-left: 85vw;
+}
 .menuBar {
     background-color: #E67E22;
     height: 7vh;
@@ -36,8 +41,15 @@
     width: 5vw;
 }
 @media only screen and (max-width: 425px) {
-    .menuBar {
+    /* .menuBar {
         background-color: green;
-
+    } */
+    .menuItem {
+        display: none;
     }
+  }
+  @media (min-width: 435px) {
+      .hamburgerButton {
+          display: none;
+      }
   }
