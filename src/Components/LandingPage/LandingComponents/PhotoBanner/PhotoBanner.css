@@ -1,0 +1,11 @@
+.photoBanner {
+    background-color: #E67E22;
+    width: 100vw;
+    height: 40vh;
+}
+@media only screen and (max-width: 425px) {
+    .photoBanner {
+        display: none;
+    }
+
+  }

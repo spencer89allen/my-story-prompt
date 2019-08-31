@@ -34,6 +34,10 @@
     color: white;
     font-size: 150%;
     padding: 25px;
+    cursor: pointer;
+}
+.menuItem:hover {
+    color: black;
 }
 .hamburgerMenu {
     height: 10vh;

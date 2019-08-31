@@ -1,0 +1,47 @@
+.auth {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.authHeader {
+   text-align: center;
+   margin-top: 5vh;
+}
+.title > p {
+    color: black;
+    font-size: 300%;
+    font-family: cursive;
+}
+.subTitle > p {
+    color: #388FCF;
+    font-size: 200%;
+    font-family: Blippo;
+    font-weight: bold;
+
+}
+.loginButtons > button {
+    border: 3px solid #388FCF;
+    color: #388FCF;
+    font-size: 45px;
+    margin: 1rem; 
+    padding: 5px 50px;
+    cursor: pointer;
+}
+.loginButtons > button:hover {
+    background-color: #388FCF;
+    color: white;
+}
+@media only screen and (max-width: 425px) {
+    .auth {
+        height: 100vh;
+    }
+    .loginButtons > button {
+        font-size: 35px;
+       
+    }
+  }
